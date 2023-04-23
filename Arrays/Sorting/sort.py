@@ -11,5 +11,4 @@ sorted_arr = i.sort(arr)
 print(sorted_arr)
 
 end_time = time.perf_counter()
-
 print("Process finished --- %.8s seconds ---" % (end_time - start_time))
