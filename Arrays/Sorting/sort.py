@@ -7,7 +7,7 @@ import merge_sort as m
 start_time = time.perf_counter()
 
 arr = [9, 2, 1, 7]
-sorted_arr = b.sort(arr)
+sorted_arr = m.sort(arr)
 print(sorted_arr)
 
 end_time = time.perf_counter()
